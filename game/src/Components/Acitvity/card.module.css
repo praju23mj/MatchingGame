@@ -1,0 +1,118 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 58px;
+    height: 68vh;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+}
+
+.cardInner {
+    width: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+.cardFlipped .cardInner {
+    transform: rotateY(180deg);
+}
+
+.cardFront,
+.cardBack {
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    background-image: url("../../assets/pinkCard.png");
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        padding-top: 10px;
+    }
+}
+
+.cardBack {
+    transform: rotateY(180deg);
+}
+.hint1{
+    position: absolute;
+    z-index: 1;
+    top: 13%;
+    left: 20%;
+}
+.cloud{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 17%;
+}
+.intro {
+    position: absolute;
+    font-size: 28px !important;
+    top: 13.5% !important;
+    left: 38.3% !important;
+    width: 267px;
+    color: #11AEC6;
+    font-weight: 800;
+}
+.cloud2{
+    position: absolute;
+    z-index: 1;
+    bottom: 9%;
+    left: 40%;
+    width: 18%;
+    transform: rotateY(180deg);
+}
+.hint2{
+    position: absolute;
+    z-index: 1;
+    bottom: 5%;
+    right: 24%;
+}
+.intro2 {z-index: 2;
+    position: absolute;
+    font-size: 28px !important;
+    bottom: 13% !important;
+    left: 44% !important;
+    width: 267px;
+    color: #11AEC6;
+    font-weight: 800;
+}
+.match{
+    position: absolute;
+    top: -6px;
+    left: -5px;
+    background-color: hsla(0, 0%, 0%, 50%);
+    z-index: 10;
+    height: 100vh;
+    width: 100vw;
+    padding-left: 50%;
+    padding-top: 25%;
+}
+.wrong{
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    width: 300px;
+    height: 80px;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 5px solid white;
+    text-align: center;
+    p{
+        padding-top: 15px;
+        color: white;
+        font-size: 28px;
+        font-weight: 800;
+    }
+}

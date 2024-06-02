@@ -1,0 +1,62 @@
+
+.img1{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.img2{
+    position: absolute;
+    top: -5%;
+    left: 37.5%;
+}
+.img3{
+    position: absolute;
+    top: 70%;
+    left: 41%;
+}
+.img4{
+    position: absolute;
+    top: 35%;
+    left: 46%;
+}
+.b1{
+    position: absolute;
+    top: -2%;
+    width: 10%;
+}
+.b2{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    width: 10%;
+}
+.b3{
+    position: absolute;
+    top: 60%;
+    right: 20%;
+    width: 10%;
+}
+.b4{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    width: 10%;
+}
+.b5{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 10%;
+}
+.b6{
+    position: absolute;
+    bottom:-3%;
+    right: 50%;
+    width: 10%;
+}
+.b7{
+    position: absolute;
+    bottom:-3%;
+    right: 30%;
+    width: 10%;
+}

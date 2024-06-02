@@ -1,0 +1,43 @@
+.back {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.cardWrapper {
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+    padding-top: 200px;
+}
+
+.pinkCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px
+}
+
+.blueCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px
+}
+
+.progess {
+    position: absolute;
+    top: 30px;
+    left: 25%;
+    width: 700px;
+    div {
+        border-radius: 15px;
+        height: 35px;
+    }
+}
+
+.disableBanana {
+    position: absolute;
+    top: -20px;
+    right: 420px;
+    z-index: 1;
+}

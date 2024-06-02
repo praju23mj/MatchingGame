@@ -1,0 +1,26 @@
+body {
+  background-image: url('./assets/BackgoundImag.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  font-family: 'Nunito', sans-serif;
+  overflow: hidden;
+}
+
+img:hover {
+  filter: drop-shadow(0px 4px 8px rgba(255, 255, 0, 0.7));
+  cursor: pointer;
+}
+
+.monkey { height: 70vh;
+  animation: moveImage 2s infinite alternate;
+}
+
+@keyframes moveImage {
+  0% {
+      transform: translateY(-40%);
+  }
+  100% {
+      transform: translateY(5%);
+  }
+}

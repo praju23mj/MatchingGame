@@ -1,0 +1,67 @@
+.btn {
+    position: absolute;
+    bottom: 50px;
+    right: 150px;
+    cursor: pointer;
+}
+.text{
+    font-size: 96px;
+    font-weight:bolder;
+    width: 723px;
+    height: 131px;
+    position: absolute;
+    top: 20%;
+    color: #EF8F35;
+    -webkit-text-stroke: 3px white; 
+}
+.cardContainer{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background-image: url("../../assets/pinkCard.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 15%;
+    transform: rotate(-20deg);
+    animation: moveCard 1.5s ease; 
+    img{
+        width: 90px;
+        box-sizing: content-box;
+        padding-top: 100px;
+        padding-left: 85px;
+        
+    }
+}
+.cardContainer2{
+    margin-top: -35px;
+    background-image: url("../../assets/blueCard.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 30%;
+    transform: rotate(20deg);
+    animation: moveCard2 1.5s ease; 
+    img{
+        width: 90px;
+        box-sizing: content-box;
+        padding-top: 100px;
+        padding-left: 80px;
+    }
+}
+@keyframes moveCard2 {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+  }
+@keyframes moveCard {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+  }
